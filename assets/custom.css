@@ -1,37 +1,39 @@
-.icon {
-    font-size: 30px;
-    padding-left: 20px;
-    color: white;
-  }
+/* 메인페이지의 css 커스텀 파일 */
 
-  .nav-link {
-    font-size: 20px;
-  }
+.site-icon {
+  font-size: 30px !important; 
+  padding-left: 20px;
+  color: white;
+}
 
-  .card {
-    margin-bottom: 20px;
-  }
+.nav-link {
+  font-size: 20px;
+}
 
-  .card-title {
-    /* font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Do Hyeon', sans-serif; */
-    font-size: 1.5rem;
-    color: black;
-    font-weight: bold;
-  }
+.card {
+  margin-bottom: 20px;
+}
 
-  .badge {
-    font-size: 13px;
-  }
+.card-title {
+  /* font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Do Hyeon', sans-serif; */
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
 
-  .card-hr {
-    margin: 0;
-  }
+.badge {
+  font-size: 13px;
+}
 
-  .card-text {
-    font-size: 1rem;
-  }
+.card-hr {
+  margin: 0;
+}
 
-  .card-tech {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
+.card-text {
+  font-size: 1rem;
+  color: black;
+}
+
+.card-tech {
+  margin-top: 15px;
+}

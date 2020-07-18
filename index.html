@@ -1,16 +1,21 @@
 ---
 layout: default
 ---
+
+<!-- 프로필 -->
 <div class="">
     <div class="container">
         <h1 class="display-4" style="font-weight: 900;">김영준</h1>
         <h2 class="font-weight-bold">SOFTWARE ENGINEER</h2>
-        <p class="lead">안녕하세요. 생각, 커뮤니케이션, 지속적인 배움을 중요시 여기는 신입개발자 김영준입니다.<br>
-        기술을 맹목적으로 따르기 보다는 생각하는 것을 구현하는 도구로써 사용하려고 노력하고 있습니다.<br>
-        그렇다고 기술에 대한 공부를 소홀히 하지 않기 위해 조심하고 있습니다.</p>
+        <!-- <p class="lead">안녕하세요. 생각, 커뮤니케이션, 지속적인 배움을 중요시 여기는 신입개발자 김영준입니다.<br>
+            기술을 맹목적으로 따르기 보다는 생각하는 것을 구현하는 도구로써 사용하려고 노력하고 있습니다.<br>
+            그렇다고 기술에 대한 공부를 소홀히 하지 않기 위해 조심하고 있습니다.<br>
+            사람들과의 커뮤니케이션을 중요하게 생각하며, 소통하기 위해 노력하고 있습니다. 말이 통하는 개발자가 되는 것을 목표로 하고 있습니다.</p> -->
     </div>
 </div>
+
 <hr>
+<!-- 네비게이션 버튼 -->
 <div class="row justify-content-md-center" id="top">
     <div class="col-md-auto">
         <a class="nav-link font-weight-bold" href="#EXPERIENCE"><b>EXPERIENCE</b></a>
@@ -27,17 +32,20 @@ layout: default
 
 <!-- EXPERIENCE -->
 <div id="EXPERIENCE">
-    <h1>EXPERIENCE</h1>
-    <hr>
+    <!-- 섹션 제목 -->
+    <div class="list-group-item list-group-item-action active">
+        <h1>EXPERIENCE</h1>
+    </div>
+
+    <!-- 섹션 내용 -->
     <div class="card">
         <div class="card-body">
             <h4 class="card-title">팀노바멤버 사이트 전산화</h4>
             <h6 class="card-subtitle mb-2 text-muted">2020-04 ~ 2020-07 (4 months)</h6>
             <a href="https://www.teamnovamember.co.kr" target="_blank"
                 class="card-link">https://www.teamnovamember.co.kr</a><br><br>
-            <p class="card-text">팀노바 멤버 사이트는 학생 및 청강생들을 전산처리(청강 등록, 상담, 퇴실 관련 처리 등)을 하기 위한 관리사이트 입니다.</p>
+            <p class="card-text">팀노바 멤버 사이트는 학생 및 청강생들을 전산처리(청강 등록, 상담, 퇴실 관련 처리 등)를 하기 위한 관리사이트 입니다.</p>
             <p class="card-text">팀원관리, 상담관리, 이월관리 기능의 구현 및 유지보수 업무를 담당했습니다.</p>
-            <br>
             <div class="card-tech">
                 <span class="badge badge-primary">PHP</span>
                 <span class="badge badge-primary">Javascript</span>
@@ -45,22 +53,21 @@ layout: default
                 <span class="badge badge-primary">JQuery</span>
             </div>
         </div>
+
         <hr class="card-hr">
 
         <div class="card-body">
-
-            <h4 class="card-title">해커톤</h4>
-            <h6 class="card-subtitle mb-2 text-muted">2019-08-29</h6>
-            <p class="card-text">팀노바 멤버사이트 유지보수 작업을 진행하였습니다. 기존에 제대로 작동하지 않던 기능 정리 및 새로운 기능 추가 등 풀스택 개발을
-                담당했습니다.
+            <h4 class="card-title">2019 ICT 콕 해커톤(COC-Hackathon)</h4>
+            <h6 class="card-subtitle mb-2 text-muted">2019-08-30 ~ 2019-08-31 (1 day)</h6>
+            <p class="card-text">ICT COC에서 주관하는 기계학습(인공지능 기법)을 이용한 공공데이터 분석을 주제로한 해커톤에 참여했습니다.
             </p>
-            <a href="https://www.teamnovamember.co.kr" target="_blank"
-                class="card-link">https://www.teamnovamember.co.kr</a>
-            <br>
-            <span class="badge badge-primary">PHP</span>
-            <span class="badge badge-primary">Javascript</span>
-            <span class="badge badge-primary">HTML/CSS</span>
-            <span class="badge badge-primary">JQuery</span>
+            <a href="https://www.onoffmix.com/event/190305" target="_blank" class="card-link">관련 링크</a>
+            <div class="card-tech">
+                <span class="badge badge-primary">PHP</span>
+                <span class="badge badge-primary">Javascript</span>
+                <span class="badge badge-primary">HTML/CSS</span>
+                <span class="badge badge-primary">JQuery</span>
+            </div>
         </div>
     </div>
 </div>
@@ -68,8 +75,12 @@ layout: default
 
 <!-- PROJECTS -->
 <div id="PROJECTS">
-    <h1>PROJECTS</h1>
-    <hr>
+    <!-- 섹션 제목 -->
+    <div class="list-group-item list-group-item-action active">
+        <h1>PROJECTS</h1>
+    </div>
+
+    <!-- 섹션 내용 -->
     <div class="card">
         <div class="card-body">
             <div>
@@ -85,14 +96,16 @@ layout: default
             <div style="float: left;">
                 <p class="card-text">학교 졸업작품으로 인공지능을 이용해 식재료를 인식한 후, 인식된 식재료로 할 수 있는 레시피를 알려주는 안드로이드 어플리케이션을 개발했습니다.
                 </p>
-                <br>
-                <span class="badge badge-info">Android</span>
-                <span class="badge badge-primary">Java</span>
-                <span class="badge badge-primary">Phython</span>
+                <div class="card-tech">
+                    <span class="badge badge-info">Android</span>
+                    <span class="badge badge-primary">Java</span>
+                    <span class="badge badge-primary">Phython</span>
+                </div>
             </div>
-
         </div>
+
         <hr class="card-hr">
+
         <div class="card-body">
             <div>
                 <h4 class="card-title" style="display: inline-block;">[APP] JDefence </h4>
@@ -108,83 +121,92 @@ layout: default
                 <p class="card-text">팀노바 멤버사이트 유지 보수 작업을 진행하였습니다. 기존에 제대로 작동하지 않던 기능 정리 및 새로운 기능 추가 등 풀스택 개발을
                     담당했습니다.ffffffffff fffffff ffffffff fffffff ffffffffffff ffffffffff
                 </p>
-                <br>
-                <span class="badge badge-info">UnrealEngine4</span>
-                <span class="badge badge-info">Android</span>
-                <span class="badge badge-info">Windows</span>
-                <span class="badge badge-primary">Java</span>
-                <span class="badge badge-primary">C++</span>
-                <span class="badge badge-primary">JQuery</span>
+                <div class="card-tech">
+                    <span class="badge badge-info">UnrealEngine4</span>
+                    <span class="badge badge-info">Android</span>
+                    <span class="badge badge-info">Windows</span>
+                    <span class="badge badge-primary">Java</span>
+                    <span class="badge badge-primary">C++</span>
+                    <span class="badge badge-primary">JQuery</span>
+                </div>
             </div>
-
         </div>
+
         <hr class="card-hr">
 
         <div class="card-body">
-
             <h4 class="card-title">[WEB] 실시간 무한대전 게임</h4>
-            <h6 class="card-subtitle mb-2 text-muted">2019-08-29</h6>
+            <h6 class="card-subtitle mb-2 text-muted">2018-08 ~ 2018-09 (4 weeks)</h6>
             <p class="card-text">팀노바 멤버사이트 유지보수 작업을 진행하였습니다. 기존에 제대로 작동하지 않던 기능 정리 및 새로운 기능 추가 등 풀스택 개발을
                 담당했습니다.
             </p>
             <a href="https://www.teamnovamember.co.kr" target="_blank"
                 class="card-link">https://www.teamnovamember.co.kr</a>
-            <br>
-            <span class="badge badge-primary">PHP</span>
-            <span class="badge badge-primary">Javascript</span>
-            <span class="badge badge-primary">HTML/CSS</span>
-            <span class="badge badge-primary">JQuery</span>
+            <div class="card-tech">
+                <span class="badge badge-primary">PHP</span>
+                <span class="badge badge-primary">Javascript</span>
+                <span class="badge badge-primary">HTML/CSS</span>
+                <span class="badge badge-primary">JQuery</span>
+                <span class="badge badge-primary">Node.js</span>
+                <span class="badge badge-primary">Phaser 2</span>
+                <span class="badge badge-primary">Socket.io</span>
+            </div>
         </div>
+
         <hr class="card-hr">
 
         <div class="card-body">
-
             <h4 class="card-title">[APP] 채팅</h4>
-            <h6 class="card-subtitle mb-2 text-muted">2019-08-29</h6>
+            <h6 class="card-subtitle mb-2 text-muted">2018-08 ~ 2018-08 (1 weeks)</h6>
             <p class="card-text">파이어베이스를 이용한 기본적인 채팅앱을 만들었습니다. 카카오톡을 참고하여 만들었으며 1:1채팅, 그룹채팅 등을 지원합니다.
             </p>
             <a href="https://www.teamnovamember.co.kr" target="_blank"
                 class="card-link">https://www.teamnovamember.co.kr</a>
-            <br>
-            <span class="badge badge-info">Android</span>
-            <span class="badge badge-info">Firebase</span>
-            <span class="badge badge-primary">Java</span>
-            <span class="badge badge-primary">HTML/CSS</span>
-            <span class="badge badge-primary">JQuery</span>
+            <div class="card-tech">
+                <span class="badge badge-info">Android</span>
+                <span class="badge badge-info">Firebase</span>
+                <span class="badge badge-primary">Java</span>
+                <span class="badge badge-primary">HTML/CSS</span>
+                <span class="badge badge-primary">JQuery</span>
+            </div>
         </div>
+
         <hr class="card-hr">
 
         <div class="card-body">
-
             <h4 class="card-title">[APP] 애니메이션 게임</h4>
-            <h6 class="card-subtitle mb-2 text-muted">2019-08-29</h6>
+            <h6 class="card-subtitle mb-2 text-muted">2018-08 ~ 2018-08 (1 weeks)</h6>
             <p class="card-text">팀노바 멤버사이트 유지보수 작업을 진행하였습니다. 기존에 제대로 작동하지 않던 기능 정리 및 새로운 기능 추가 등 풀스택 개발을
                 담당했습니다.
             </p>
             <a href="https://www.teamnovamember.co.kr" target="_blank"
                 class="card-link">https://www.teamnovamember.co.kr</a>
-            <br>
-            <span class="badge badge-info">Android</span>
-            <span class="badge badge-primary">Java</span>
-            <span class="badge badge-primary">HTML/CSS</span>
-            <span class="badge badge-primary">JQuery</span>
+            <div class="card-tech">
+                <span class="badge badge-info">Android</span>
+                <span class="badge badge-info">Firebase</span>
+                <span class="badge badge-primary">Java</span>
+                <span class="badge badge-primary">HTML/CSS</span>
+                <span class="badge badge-primary">JQuery</span>
+            </div>
         </div>
+
         <hr class="card-hr">
 
         <div class="card-body">
-
             <h4 class="card-title">[APP] 자동 시간 기록 시급계산기</h4>
-            <h6 class="card-subtitle mb-2 text-muted">2019-08-29</h6>
+            <h6 class="card-subtitle mb-2 text-muted">2018-07 ~ 2018-08 (4 weeks)</h6>
             <p class="card-text">팀노바 멤버사이트 유지보수 작업을 진행하였습니다. 기존에 제대로 작동하지 않던 기능 정리 및 새로운 기능 추가 등 풀스택 개발을
                 담당했습니다.
             </p>
             <a href="https://www.teamnovamember.co.kr" target="_blank"
                 class="card-link">https://www.teamnovamember.co.kr</a>
-            <br>
-            <span class="badge badge-info">Android</span>
-            <span class="badge badge-primary">Java</span>
-            <span class="badge badge-primary"></span>
-            <span class="badge badge-primary"></span>
+            <div class="card-tech">
+                <span class="badge badge-info">Android</span>
+                <span class="badge badge-info">Firebase</span>
+                <span class="badge badge-primary">Java</span>
+                <span class="badge badge-primary">HTML/CSS</span>
+                <span class="badge badge-primary">JQuery</span>
+            </div>
         </div>
     </div>
 </div>
@@ -193,18 +215,23 @@ layout: default
 
 <!-- EDUCATION -->
 <div id="EDUCATION">
-    <h1>EDUCATION</h1>
-    <hr>
+    <!-- 섹션 제목 -->
+    <div class="list-group-item list-group-item-action active">
+        <h1>EDUCATION</h1>
+    </div>
+
+    <!-- 섹션 내용 -->
     <div class="card">
         <div class="card-body">
             <h4 class="card-title">팀노바</h4>
             <h6 class="card-subtitle mb-2 text-muted">2018-06 ~ 2020-07</h6>
-            <p class="card-text">왜다녔나</p>
+            <p class="card-text">이중전공을 하며 컴퓨터소프트웨어에 대한 지식을 배웠지만, 제가 생각하는 프로그램을 만들기 위한 실력을 갖추기엔 부족하다고 생각하고 있었습니다.<br>
+                그러던 중 팀노바의 광고를 보고, 이들의 교육방식이 마음에 들어서 다니게 되었습니다. 그 결과 개발실력과 항상 새로운것을 배우는 두려움? 두렵지 않아!</p>
         </div>
         <hr class="card-hr">
         <div class="card-body">
             <h4 class="card-title">고려대학교 세종캠퍼스</h4>
-            <h6 class="card-subtitle mb-2">디스플레이.반도체 물리학과 / 컴퓨터융합소프트웨어학과</h6>
+            <h6 class="card-subtitle mb-3">디스플레이.반도체 물리학과 / 컴퓨터융합소프트웨어학과</h6>
             <h6 class="card-subtitle mb-2 text-muted">2010 ~ 2019</h6>
             <p class="card-text">디스플레이 반도체 물리학과로 입학해서 수 많은 물리지식을 배웠지만, 맞지 않는다는 것을 느끼고
                 이중전공으로 컴퓨터융합소프트웨어학과를 선택하여 기본적인 소프트웨어 지식들을 배웠습니다.
