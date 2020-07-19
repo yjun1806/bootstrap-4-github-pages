@@ -3,33 +3,53 @@ layout: default
 ---
 
 <!-- 프로필 -->
-<div class="">
-    <div class="container">
-        <h1 class="display-4" style="font-weight: 900;">김영준</h1>
-        <h2 class="font-weight-bold">SOFTWARE ENGINEER</h2>
-        <!-- <p class="lead">안녕하세요. 생각, 커뮤니케이션, 지속적인 배움을 중요시 여기는 신입개발자 김영준입니다.<br>
-            기술을 맹목적으로 따르기 보다는 생각하는 것을 구현하는 도구로써 사용하려고 노력하고 있습니다.<br>
-            그렇다고 기술에 대한 공부를 소홀히 하지 않기 위해 조심하고 있습니다.<br>
-            사람들과의 커뮤니케이션을 중요하게 생각하며, 소통하기 위해 노력하고 있습니다. 말이 통하는 개발자가 되는 것을 목표로 하고 있습니다.</p> -->
+<!-- <div class="container">
+    <div>
+        <h1 class="display-3" style="font-weight: 900;">김영준</h1>
+        <h2 style="font-weight: 900;">SW ENGINEER</h2>
     </div>
-</div>
+</div> -->
 
 <hr>
 <!-- 네비게이션 버튼 -->
 <div class="row justify-content-md-center" id="top">
     <div class="col-md-auto">
-        <a class="nav-link font-weight-bold" href="#EXPERIENCE"><b>EXPERIENCE</b></a>
+        <a class="nav-link font-weight-bold text-warning" href="#ABOUT"><b>ABOUT ME</b></a>
     </div>
     <div class="col-md-auto">
-        <a class="nav-link font-weight-bold" href="#PROJECTS"><b>PROJECTS</b></a>
+        <a class="nav-link font-weight-bold text-warning" href="#EXPERIENCE"><b>EXPERIENCE</b></a>
     </div>
     <div class="col-md-auto">
-        <a class="nav-link font-weight-bold" href="#EDUCATION"><b>EDUCATION</b></a>
+        <a class="nav-link font-weight-bold text-warning" href="#PROJECTS"><b>PROJECTS</b></a>
+    </div>
+    <div class="col-md-auto">
+        <a class="nav-link font-weight-bold text-warning" href="#EDUCATION"><b>EDUCATION</b></a>
     </div>
 </div>
 <hr>
 <br><br>
 
+<!-- EXPERIENCE -->
+<div id="ABOUT">
+    <!-- 섹션 제목 -->
+    <div class="list-group-item list-group-item-action active">
+        <h1>ABOUT ME</h1>
+    </div>
+
+    <!-- 섹션 내용 -->
+    <div class="card">
+        <div class="card-body">
+            <div class="box" style="background: #BDBDBD;">
+                <img class="profile" src="http://placehold.it/200">
+            </div>
+            <p class="lead" style="color: #1a1a1a;">안녕하세요. 생각, 커뮤니케이션, 지속적인 배움을 중요시 여기는 신입개발자 김영준입니다.<br>
+                기술을 맹목적으로 따르기 보다는 생각하는 것을 구현하는 도구로써 사용하려고 노력하고 있습니다.<br>
+                그렇다고 기술에 대한 공부를 소홀히 하지 않기 위해 조심하고 있습니다.<br>
+                사람들과의 커뮤니케이션을 중요하게 생각하며, 소통하기 위해 노력하고 있습니다. 말이 통하는 개발자가 되는 것을 목표로 하고 있습니다.</p>
+        </div>
+    </div>
+</div>
+<br><br>
 <!-- EXPERIENCE -->
 <div id="EXPERIENCE">
     <!-- 섹션 제목 -->
@@ -40,33 +60,47 @@ layout: default
     <!-- 섹션 내용 -->
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">팀노바멤버 사이트 전산화</h4>
+            <div>
+                <h4 class="card-title">팀노바멤버 사이트 전산화</h4>
+                <div style="float: right;">
+                    <a href="https://www.teamnovamember.co.kr" target="_blank" class="btn btn-outline-primary btn-sm">관련
+                        사이트 링크</a>
+                </div>
+            </div>
             <h6 class="card-subtitle mb-2 text-muted">2020-04 ~ 2020-07 (4 months)</h6>
-            <a href="https://www.teamnovamember.co.kr" target="_blank"
-                class="card-link">https://www.teamnovamember.co.kr</a><br><br>
+
             <p class="card-text">팀노바 멤버 사이트는 학생 및 청강생들을 전산처리(청강 등록, 상담, 퇴실 관련 처리 등)를 하기 위한 관리사이트 입니다.</p>
             <p class="card-text">팀원관리, 상담관리, 이월관리 기능의 구현 및 유지보수 업무를 담당했습니다.</p>
             <div class="card-tech">
+                <span class="badge badge-info">Nginx</span>
+                <span class="badge badge-info">MariaDB</span>
                 <span class="badge badge-primary">PHP</span>
                 <span class="badge badge-primary">Javascript</span>
-                <span class="badge badge-primary">HTML/CSS</span>
-                <span class="badge badge-primary">JQuery</span>
+                <span class="badge badge-primary">HTML/CSS/JQuery</span>
+                <span class="badge badge-primary">Bootstrap</span>
             </div>
         </div>
 
         <hr class="card-hr">
 
         <div class="card-body">
-            <h4 class="card-title">2019 ICT 콕 해커톤(COC-Hackathon)</h4>
+            <div>
+                <h4 class="card-title">2019 ICT 콕 해커톤(COC-Hackathon)</h4>
+                <div style="float: right;">
+                    <a href="https://www.onoffmix.com/event/190305" target="_blank"
+                        class="btn btn-outline-primary btn-sm">관련
+                        사이트 링크</a>
+                </div>
+            </div>
             <h6 class="card-subtitle mb-2 text-muted">2019-08-30 ~ 2019-08-31 (1 day)</h6>
             <p class="card-text">ICT COC에서 주관하는 기계학습(인공지능 기법)을 이용한 공공데이터 분석을 주제로한 해커톤에 참여했습니다.
             </p>
-            <a href="https://www.onoffmix.com/event/190305" target="_blank" class="card-link">관련 링크</a>
+
             <div class="card-tech">
                 <span class="badge badge-primary">PHP</span>
                 <span class="badge badge-primary">Javascript</span>
-                <span class="badge badge-primary">HTML/CSS</span>
-                <span class="badge badge-primary">JQuery</span>
+                <span class="badge badge-primary">HTML/CSS/JQuery</span>
+                <span class="badge badge-primary"></span>
             </div>
         </div>
     </div>
@@ -84,7 +118,7 @@ layout: default
     <div class="card">
         <div class="card-body">
             <div>
-                <h4 class="card-title" style="display: inline-block;">[APP] 레시피 찾기 앱 </h4>
+                <h4 class="card-title">[APP] 레시피 찾기 앱 </h4>
                 <div style="float: right;">
                     <a class="btn btn-outline-primary btn-sm" href="#" target="_blank">Github</a>
                     <a class="btn btn-outline-danger btn-sm" href="#" target="_blank">Youtube</a>
@@ -98,8 +132,11 @@ layout: default
                 </p>
                 <div class="card-tech">
                     <span class="badge badge-info">Android</span>
+                    <span class="badge badge-info">Flask</span>
                     <span class="badge badge-primary">Java</span>
                     <span class="badge badge-primary">Phython</span>
+                    <span class="badge badge-primary">CNN / ResNet</span>
+                    <span class="badge badge-primary">CNN</span>
                 </div>
             </div>
         </div>
