@@ -33,11 +33,10 @@
 .card-text {
   font-size: 1rem;
   color:  #1a1a1a;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.card-tech {
-  margin-top: 15px;
-}
 
 .box {
   width: 200px;
