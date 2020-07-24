@@ -1,7 +1,7 @@
 /* 메인페이지의 css 커스텀 파일 */
 
 .site-icon {
-  font-size: 30px !important; 
+  font-size: 30px !important;
   padding-left: 20px;
   color: white;
 }
@@ -17,7 +17,7 @@
 .card-title {
   /* font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Do Hyeon', sans-serif; */
   font-size: 1.5rem;
-  color:  #1a1a1a;
+  color: #1a1a1a;
   font-weight: bold;
   display: inline-block;
 }
@@ -32,25 +32,47 @@
 
 .card-text {
   font-size: 1rem;
-  color:  #1a1a1a;
+  color: #1a1a1a;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .box {
+    text-align: center;
+  }
 
-.box {
-  width: 200px;
-  height: 200px; 
-  border-radius: 70%;
-  overflow: hidden;
-  float: left;
-  margin-right: 20px;
+  .profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+
 }
-.profile {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+  .box {
+    overflow: hidden;
+    float: left;
+  }
+
+  .profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+    margin-right: 20px;
+
+  }
 }
+
+
 
 
 div>div>h1 {
