@@ -15,7 +15,6 @@
 }
 
 .card-title {
-  /* font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Do Hyeon', sans-serif; */
   font-size: 1.5rem;
   color: #1a1a1a;
   font-weight: bold;
@@ -23,7 +22,8 @@
 }
 
 .badge {
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .card-hr {
@@ -37,8 +37,8 @@
   margin-bottom: 30px;
 }
 
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 991.98px) {
+/* // Extra small devices (portrait phones, less than 991.98px) */
+/* @media (max-width: 991.98px) {
   .box {
     text-align: center;
   }
@@ -53,12 +53,16 @@
     object-fit: cover;
   }
 
-}
+  .site-btn {
+    margin-bottom: 10px;
+    text-align: right;
+  }
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 992px) {
+} */
+
+/* // Extra large devices (large desktops, 992px and up) */
+/* @media (min-width: 992px) {
   .box {
-    overflow: hidden;
     float: left;
   }
 
@@ -70,11 +74,44 @@
     margin-right: 20px;
 
   }
+
+  .site-btn {
+    float: right;
+  }
+} */
+
+
+.box {
+  text-align: center;
 }
 
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  text-align: center;
 
+}
+
+.site-btn {
+  margin-bottom: 10px;
+  text-align: right;
+}
 
 
 div>div>h1 {
   margin: 0;
+}
+
+.lead>mark {
+  background-color:transparent;
+  font-weight: bold;
+}
+
+.lead {
+  line-height: 1.8em;
 }
