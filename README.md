@@ -1,21 +1,10 @@
 
-# Boostrap 4 Github Pages
+# Kim youngjun's Resume
 
-[![Build Status](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages.svg?branch=master)](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages)
+https://yjun1806.github.io/
 
-A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
-* A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
-* Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
-* Full support of Bootstrap's JavaScript plugins.
-* Supports all features of Github Pages and Jekyll.
+[Bootstrap 4 Github Pages](https://nicolas-van.github.io/bootstrap-4-github-pages/)의 저장소를 Fork한 것을 기반으로 이력서 사이트를 작성했습니다.
 
-[See the website for demonstration and documentation](https://nicolas-van.github.io/bootstrap-4-github-pages/).
+테마는 [Bootwatch의 LUX 테마](https://bootswatch.com/lux/)를 기반으로 했으며, 폰트는 [Google Font의 Noto Sans KR](https://fonts.google.com/specimen/Noto+Sans+KR?selection.family=Noto+Sans+KR:wght@400;900&subset=korean&sidebar.open=true)을 사용했습니다.
 
-## Contribution
-
-[See the contribution guide.](./CONTRIBUTING.md)
-
-## License
-
-[See the license file.](./LICENSE.md)
